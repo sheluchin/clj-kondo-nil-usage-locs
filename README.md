@@ -1,3 +1,5 @@
+Resolved in https://github.com/clj-kondo/clj-kondo/pull/2505.
+
 # clj-kondo analysis - var-usage nils repro
 This repo shows clj-kondo occasionally producing `:name-col nil` var-usages.
 From my reading of the [docs][], this shouldn't happen since a using a var
